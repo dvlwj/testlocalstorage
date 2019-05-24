@@ -4,7 +4,7 @@ try {
     localStorage.setItem("uid", uid);
     localStorage.removeItem("uid");
     console.log("Local storage is enabled in this browser.")
-    window.location.replace("http://fwd.com.sg/travel-insurance/online-quote/quickQuestions");
+    window.location.href("http://fwd.com.sg/travel-insurance/online-quote/quickQuestions");
 } catch (exception) {
     console.log("Local storage is disabled in this browser.")
     var osDetect = navigator.appVersion.toLowerCase()
