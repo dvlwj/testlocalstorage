@@ -49,11 +49,9 @@ try {
         document.getElementById("aClick").href = urlAndroid
         modal.style.display = "block";
     } else if (OSName == "iOS"){
+        var urlIOS = "googlechrome://fwd.com.sg"
+        document.getElementById("aClick").href = urlIOS
         modal.style.display = "block";
-        document.getElementById("aClick").onclick(function(){
-            launchiOSApp("http://www.fwd.com.sg")
-            }
-        )
     }
     // When the user clicks on the button, open the modal 
     // btn.onclick = function () {
