@@ -49,7 +49,7 @@ try {
         document.getElementById("aClick").href = urlAndroid
         modal.style.display = "block";
     } else if (OSName == "iOS"){
-        var urlIOS = "googlechrome://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions"
+        var urlIOS = "googlechrome://fwd.com.sg/travel-insurance/online-quote/quickQuestions"
         document.getElementById("aClick").href = urlIOS
         modal.style.display = "block";
     }
