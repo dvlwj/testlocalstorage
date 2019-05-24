@@ -45,11 +45,11 @@ try {
     
     if (OSName == "Android") {
         // <a href="intent://#Intent;scheme=http;package=com.example.myapp;end"> 
-        var urlAndroid = "intent://www.fwd.com.sg#Intent;scheme=http;package=com.android.chrome;end"
+        var urlAndroid = "intent://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions#Intent;scheme=http;package=com.android.chrome;end"
         document.getElementById("aClick").href = urlAndroid
         modal.style.display = "block";
     } else if (OSName == "iOS"){
-        var urlIOS = "googlechrome://fwd.com.sg"
+        var urlIOS = "googlechrome://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions"
         document.getElementById("aClick").href = urlIOS
         modal.style.display = "block";
     }
