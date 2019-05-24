@@ -49,8 +49,9 @@ try {
         document.getElementById("aClick").href = urlAndroid
         modal.style.display = "block";
     } else if (OSName == "iOS"){
+        modal.style.display = "block";
         document.getElementById("aClick").onclick(function(){
-                launchiOSApp("http://www.fwd.com.sg")
+            launchiOSApp("http://www.fwd.com.sg")
             }
         )
     }
