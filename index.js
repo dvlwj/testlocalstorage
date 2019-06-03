@@ -4,7 +4,7 @@ try {
     localStorage.setItem("uid", uid);
     localStorage.removeItem("uid");
     console.log("Local storage is enabled in this browser.")
-    window.location = "http://fwd.com.sg/travel-insurance/online-quote/quickQuestions";
+    window.location = "sitea";
 } catch (exception) {
     console.log("Local storage is disabled in this browser.")
     var osDetect = navigator.appVersion.toLowerCase()
@@ -46,11 +46,11 @@ try {
     
     if (OSName == "Android") {
         // <a href="intent://#Intent;scheme=http;package=com.example.myapp;end"> 
-        var urlAndroid = "intent://www.fwd.com.sg/travel-insurance/online-quote/quickQuestions#Intent;scheme=http;package=com.android.chrome;end"
+        var urlAndroid = "intent://anysite.com#Intent;scheme=http;package=com.android.chrome;end"
         document.getElementById("aClick").href = urlAndroid
         modal.style.display = "block";
     } else if (OSName == "iOS"){
-        var urlIOS = "googlechrome://fwd.com.sg/travel-insurance/online-quote/quickQuestions"
+        var urlIOS = "googlechrome://anysite.com"
         document.getElementById("aClick").href = urlIOS
         modal.style.display = "block";
     }
