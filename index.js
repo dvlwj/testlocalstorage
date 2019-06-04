@@ -4,7 +4,7 @@ try {
     localStorage.setItem("uid", uid);
     localStorage.removeItem("uid");
     console.log("Local storage is enabled in this browser.")
-    window.location = "sitea";
+//     window.location = "sitea";
 } catch (exception) {
     console.log("Local storage is disabled in this browser.")
     var osDetect = navigator.appVersion.toLowerCase()
